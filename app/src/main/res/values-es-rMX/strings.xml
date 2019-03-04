@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidKT102</string>
+    <string name="title_main">Android KT102 titulo</string>
+    <string name="hello_android_for_kotlin">Hola Android desde Kotlin</string>
+</resources>
