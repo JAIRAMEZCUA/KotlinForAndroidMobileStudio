@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">AndroidKT102</string>
-    <string name="title_main">Android KT102 title</string>
-    <string name="hello_android_for_kotlin">Hola Android desde Kotlin</string>
-    <string name="ingress_name">Ingresa tu nombre</string>
-    <string name="name">Nombre</string>
-    <string name="show_name">Mostrar nombre</string>
+    <string name="app_name">Kotlin103Layouts</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="transition_name_logo">image_logo_name</string>
+    <string name="transition_name_txt_logo">transition_name_txt_logo</string>
+    <string name="surf_school">Surf School</string>
 </resources>

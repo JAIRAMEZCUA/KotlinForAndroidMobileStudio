@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RootLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineFormStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineFormEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <ImageView
+        android:id="@+id/imgLoginHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/surf_header"
+        app:layout_constraintBottom_toTopOf="@id/guidelineForm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLoginLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/surf_logo"
+        android:transitionName="@string/transition_name_logo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelineHeader" />
+
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Surf School"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:transitionName="@string/transition_name_txt_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLoginLogo" />
+
+    <TextView
+        android:id="@+id/txtLoginFormEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toEndOf="@id/guidelineFormStart"
+        app:layout_constraintTop_toBottomOf="@id/guidelineForm" />
+
+    <EditText
+        android:id="@+id/edtxLoginFormEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/guidelineFormEnd"
+        app:layout_constraintStart_toEndOf="@id/guidelineFormStart"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoginFormEmail" />
+
+    <TextView
+        android:id="@+id/txtLoginFormPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/password"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toEndOf="@id/guidelineFormStart"
+        app:layout_constraintTop_toBottomOf="@id/edtxLoginFormEmail" />
+
+    <EditText
+        android:id="@+id/edtxLoginFormPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/guidelineFormEnd"
+        app:layout_constraintStart_toEndOf="@id/guidelineFormStart"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoginFormPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/ButtonRojo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        app:layout_constraintEnd_toStartOf="@id/guidelineFormEnd"
+        app:layout_constraintStart_toEndOf="@id/guidelineFormStart"
+        app:layout_constraintTop_toBottomOf="@+id/edtxLoginFormPass" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/ButtonLoginSucces"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/login"
+        app:layout_constraintEnd_toStartOf="@id/guidelineFormEnd"
+        app:layout_constraintStart_toEndOf="@id/guidelineFormStart"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+
+</android.support.constraint.ConstraintLayout>
