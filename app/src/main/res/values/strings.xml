@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin106Storage</string>
+    <string name="hint_login">Ingresa tu nombre</string>
+    <string name="login">Login</string>
+    <string name="log_out">Log Out</string>
+    <string name="hint_title">Titulo de la tarea</string>
+    <string name="save_task">Save Task</string>
+    <string name="delete_task">Delete Task</string>
+</resources>
