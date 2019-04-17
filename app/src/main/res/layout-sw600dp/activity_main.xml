@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentMailList"
+        class="com.gorrotowi.kotlin105fragments.fragments.MailListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        tools:context=".MainActivity" />
+
+    <fragment
+        android:id="@+id/fragmentMailDetail"
+        class="com.gorrotowi.kotlin105fragments.fragments.MailDetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        tools:context=".MainActivity" />
+
+    <fragment
+        android:id="@+id/fragmentMailDetail2"
+        class="com.gorrotowi.kotlin105fragments.fragments.MailDetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        tools:context=".MainActivity" />
+
+</LinearLayout>
