@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin107LocationAndMaps</string>
+    <string name="alert_dialog_location_title">Permiso de localización</string>
+    <string name="alert_dialog_location_message">Para obtener tus datos de geolocalización, necesitamos que apruebes el permiso de gps</string>
+    <string name="alert_dialog_accept">Aceptar</string>
+    <string name="alert_dialog_location_cancel">Cancelar</string>
+    <string name="alert_dialog_location_message_try_again">El uso del GPS es necesario para esta aplicación</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
