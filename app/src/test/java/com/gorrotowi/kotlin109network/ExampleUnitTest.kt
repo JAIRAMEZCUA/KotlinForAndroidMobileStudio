@@ -1,4 +1,4 @@
-package com.gorrotowi.kotlin108googlemaps
+package com.gorrotowi.kotlin109network
 
 import org.junit.Test
 

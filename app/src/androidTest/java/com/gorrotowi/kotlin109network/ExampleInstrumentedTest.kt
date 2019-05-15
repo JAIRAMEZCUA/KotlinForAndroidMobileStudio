@@ -1,4 +1,4 @@
-package com.gorrotowi.kotlin108googlemaps
+package com.gorrotowi.kotlin109network
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.gorrotowi.kotlin108googlemaps", appContext.packageName)
+        assertEquals("com.gorrotowi.kotlin109network", appContext.packageName)
     }
 }
